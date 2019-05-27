@@ -21,6 +21,3 @@ appData.expenses.a = a1;
 appData.expenses.a2 = a3;
 
 alert(appData.budget / 30);
-
-
-
