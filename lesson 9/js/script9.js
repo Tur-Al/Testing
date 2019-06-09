@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", function() {    // Навешива�
         info = document.querySelector(".info-header"),      // Получаем класс родителя наших табов
         tabContent = document.querySelectorAll(".info-tabcontent");     // Получаем класс нашего контента
 
-    function hideTabContent(a) {    // Функция которая будет скрывать наши табы
+    function hideTabContent(a) {    // Функция которая будет скрывать наш контент
         for (let i = a; i < tabContent.length; i++) {   // Колличество нашего контента
             tabContent[i].classList.remove("show");     // В каждом элементе будет удаляться класс "show" - ранее написанный в css и заданный в html 
             tabContent[i].classList.add("hide");    // Каждому элементу будет добавляться класс "hide" - ранее написанный в css и заданный в html
@@ -35,4 +35,3 @@ window.addEventListener("DOMContentLoaded", function() {    // Навешива�
             }
         }
     });
-});
