@@ -83,4 +83,4 @@ window.addEventListener("DOMContentLoaded", function() {    // Навешива�
         }
     }
     setClock("timer", deadline);    // вызываем функцию "setClock("timer", deadline);" с ее аргументами id-"timer" и переменной "deadline"
-}); 
+});
