@@ -192,7 +192,7 @@ window.addEventListener("DOMContentLoaded", function() {    // Навешива�
         }
 
         slides.forEach((item) => item.style.display = "none");      // скрыть все слайды
-        // for (let i = 0; i < slides.length; i++) {    // тоже самое через цикл "for"
+        // for (let i = 0; i < slides.length; i++) {    // тоже самое только через цикл "for"
         //     slides[i].style.display = "none";
         // }
         dots.forEach((item) => item.classList.remove("dot-active"));    // скрыть все точки
